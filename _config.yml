@@ -1,17 +1,23 @@
 # ----------- CONFIGURABLE START -----------
-title:            "Scribble"
-description:      "Such theme, very cool."
-url:              https://nestcx.github.io # Site url, without a slash at the end.
+title:            "Marcus Valentino - Software Developer"
+description:      ""
+url:              https://nestcx.github.io/scribble # Site url, without a slash at the end.
 signoff:          "Marcus" # Your name
 facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
 google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
 share:            false # Turn on twitter and facebook share buttons
 
 links:
-  - name:         Posts
+  - name:         Home
     url:          /
     external:     false
-  - name:         About me
+  - name:         Projects
+    url:          /projects
+    external:     false
+  - name:         Feed
+    url:          /feed
+    external:     false
+  - name:         About
     url:          /about
     external:     false
 # ------------ CONFIGURABLE END ------------

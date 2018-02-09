@@ -2,15 +2,15 @@
 <!doctype>
 <html lang="en">
   <head>
-    <meta content='{{ page.title }} - {{ site.title }}' name='title' />
-    <meta content='{{ page.title }} - {{ site.title }}' name='og:title' />
+    <meta content='{{ site.title }}' name='title' />
+    <meta content='{{ site.title }}' name='og:title' />
     <title>{{ page.title }} - {{ site.title }}</title>
     {% include head.html %}
   </head>
   <body class="lh-copy dark-gray pa0 f6 sans-serif bg-super-white">
     <header class="tc mt4">
       <a href="{{ site.url }}">
-        <img src="{{ site.url }}/images/scribble.png" alt="Home" width="53" height="59">
+        <img src="{{ site.url }}/images/top_avatar.jpeg" alt="Home" width="140" height="140">
       </a>
       <p>{{ site.title }}</p>
     </header>
@@ -48,8 +48,7 @@
       {% if is_post %}{% include pagination.html %}{% endif %}
     </div>
     <footer class="mw7 center tc pt3 pb4 silver">
-      Built with Jekyll using <a href="http://github.com/muan/scribble" class="link silver hover-blue pv1">Scribble</a>.
-      <img src="{{ site.url }}/images/scribble2.png" alt="scribble" class="mt4 db center" />
+      2018
     </footer>
   </body>
 </html>
